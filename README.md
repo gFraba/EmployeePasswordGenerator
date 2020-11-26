@@ -2,6 +2,9 @@
 
 Link to application https://gfraba.github.io/EmployeePasswordGenerator/
 
+Screen Shot
+Screenshot 2020-11-21 193726.png
+
 ## User Story
 
 ```

@@ -2,7 +2,7 @@
 var generateBtn = document.querySelector("#generate");
 
 
-function generatePassword() {
+
 
 // Declaring arrays used to contain characters for password
 
@@ -13,7 +13,9 @@ let characters = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+
 let result = [];
 let final = [];
 
-// Prompting the user for password criteria
+// Function to start after user hits generate to initiate password criteria 
+
+function generatePassword() {
 
 let charLength = prompt ("How many characters would you like in your password.  Must be between 8 and 128.");
 let lowerCaseP = confirm ("Would you like your password to contain lower case letters?");
